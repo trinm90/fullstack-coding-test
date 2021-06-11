@@ -41,8 +41,8 @@ const Intro = () => {
       </Head>
 
       <main className={styles.main}>
-        <DynamicText ref={childRef}/>
-        <Input onChange={onChange} placeholder="Enter some texts"/>
+        <DynamicText ref={childRef} />
+        <Input onChange={onChange} placeholder="Enter some texts" />
         {/* <button onClick={submit}>Submit</button> */}
       </main>
     </Box>
