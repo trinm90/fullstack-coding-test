@@ -13,7 +13,7 @@ class AuthProvider extends React.Component {
   state = {
     isAuth: false,
     email: "tri.nguyen@naivecat.com",
-    password: "acb909qpm",
+    password: "asf", // acb909qpm
     user: null
   }
 
@@ -29,6 +29,7 @@ class AuthProvider extends React.Component {
       .then((userCredential) => {
         // Signed in
         // var user = userCredential.user;
+
         this.setState({
           isAuth: true,
           user: userCredential.user
@@ -40,8 +41,10 @@ class AuthProvider extends React.Component {
           isAuth: false
         });
 
+        // display incorrect email and/or password
         var errorCode = error.code;
         var errorMessage = error.message;
+        console.log(errorCode.toString().concat(errorMessage));
       });
   }
 
