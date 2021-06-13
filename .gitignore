@@ -36,3 +36,6 @@ yarn-error.log*
 
 #Ignore project metadata of IntelliJ IDE
 /.idea
+
+#ignore package-lock.json
+package-lock.json
