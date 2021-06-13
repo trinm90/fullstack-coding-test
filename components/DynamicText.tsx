@@ -11,7 +11,6 @@ const DynamicText = forwardRef((props, ref) => {
   }));
 
   return <Heading as="h1">{value}</Heading>;
-  }
-);
+});
 
 export default DynamicText;
