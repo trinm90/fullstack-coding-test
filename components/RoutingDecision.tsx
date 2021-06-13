@@ -6,7 +6,6 @@ import {
   Switch,
 } from 'react-router-dom';
 import React, { useContext } from 'react';
-import ProtectedRoute123 from './ProtectedRoute';
 import { AuthProvider, AuthConsumer } from './AuthContext';
 import HeaderBar from './HeaderBar';
 import Landing from '../pages/landing';
