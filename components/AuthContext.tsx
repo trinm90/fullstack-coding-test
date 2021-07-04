@@ -13,7 +13,7 @@ class AuthProvider extends React.Component {
   state = {
     isAuth: false,
     email: "tri.nguyen@naivecat.com",
-    password: "asf", // acb909qpm
+    password: "acb909qpm", // acb909qpm
     user: null
   }
 

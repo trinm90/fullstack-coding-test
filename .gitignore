@@ -39,3 +39,6 @@ yarn-error.log*
 
 #ignore package-lock.json
 package-lock.json
+
+#ignore backup folder
+/backup
